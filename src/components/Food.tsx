@@ -9,7 +9,7 @@ export default function Food(props: any) {
   return (
       <div style={{height: "90vh"}}>
         <Center>
-          <h1>Food</h1>
+          <h1>Nourriture</h1>
         </Center>
         <Flex justify={"space-evenly"}>
           <FoodCard name={"Wrap"} image={wrap}
@@ -30,7 +30,7 @@ export default function Food(props: any) {
         <Center>
             <h2>Nos sauces</h2>
         </Center>
-        <Flex justify={"space-around"} wrap={"wrap"} p={"xl"}>
+        <Flex justify={"space-around"} wrap={"wrap"} mx={100} my={"lg"}>
           {["Ketchup", "Mayonnaise", "Moutarde", "Barbecue", "Curry", "Pommes-Frites",
             "Pitta", "3 Poivres", "Algérienne", "Samouraï", "Bleu", "Miami", "Big Burger",
           "Épices : Herbes de Provence", "Épices : Thym", "Épices : Curry", ].map((sauce) => (
