@@ -4,6 +4,7 @@ import {MantineProvider} from "@mantine/core";
 import MainHeader from "./components/MainHeader";
 import Display from "./components/Display";
 import Food from "./components/Food";
+import Drinks from "./components/Drinks";
 
 function App() {
   const [primaryColor, setPrimaryColor] = React.useState("blue");
@@ -21,6 +22,8 @@ function App() {
         <Display/>
         <hr id={"food"}/>
         <Food/>
+        <hr id={"drink"}/>
+        <Drinks/>
       </MantineProvider>
   );
 }
