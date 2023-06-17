@@ -5,6 +5,7 @@ import MainHeader from "./components/MainHeader";
 import Display from "./components/Display";
 import Food from "./components/Food";
 import Drinks from "./components/Drinks";
+import Snacks from "./components/Snacks";
 
 function App() {
   const [primaryColor, setPrimaryColor] = React.useState("blue");
@@ -24,6 +25,8 @@ function App() {
         <Food/>
         <hr id={"drink"}/>
         <Drinks/>
+        <hr id={"snacks"}/>
+        <Snacks/>
       </MantineProvider>
   );
 }
