@@ -10,7 +10,7 @@ export default function Drinks(props: any) {
     "Smoothie orange 2.00€"];
 
   return (
-      <Container mih={"90vh"} maw={"90vh"} mx={"auto"}>
+      <Container mih={"90vh"} maw={"80vw"} mx={"auto"}>
         <Center>
           <h1>Boissons</h1>
         </Center>

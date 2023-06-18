@@ -9,7 +9,7 @@ export default function Food(props: any) {
   const isLargeScreen = useMediaQuery('(min-width: 90em)');
 
   return (
-      <Flex mih={"90vh"} maw={"90vh"} mx={"auto"} direction={"column"} align={"center"}>
+      <Flex mih={"90vh"} maw={"85vw"} mx={"auto"} px={"0"} direction={"column"} align={"center"}>
         <Center>
           <h1>Nourriture</h1>
         </Center>
@@ -32,7 +32,7 @@ export default function Food(props: any) {
         <Center>
           <h2>Nos sauces</h2>
         </Center>
-        <Flex justify={"space-around"} wrap={"wrap"} mx={"auto"} my={"lg"}>
+        <Flex justify={"space-around"} wrap={"wrap"} mx={"auto"} my={"lg"} maw={"70vw"}>
           {["Ketchup", "Mayonnaise", "Moutarde", "Barbecue", "Curry", "Pommes-Frites",
             "Pitta", "3 Poivres", "Algérienne", "Samouraï", "Bleu", "Miami", "Big Burger",
             "Épices : Herbes de Provence", "Épices : Thym", "Épices : Curry",].map((sauce) => (
