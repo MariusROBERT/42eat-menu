@@ -3,19 +3,21 @@ import FoodCard from "./FoodCard";
 import croque from "../images/croque-monsieur.jpg";
 import wrap from "../images/wrap.jpg";
 import salade from "../images/salade.webp";
+import {useMediaQuery} from "@mantine/hooks";
 
 export default function Food(props: any) {
+  const isLargeScreen = useMediaQuery('(min-width: 90em)');
 
   return (
-      <div style={{height: "90vh"}}>
+      <Flex mih={"90vh"} maw={"90vh"} mx={"auto"} direction={"column"} align={"center"}>
         <Center>
           <h1>Nourriture</h1>
         </Center>
-        <Flex justify={"space-evenly"}>
+        <Flex justify={"space-evenly"} direction={isLargeScreen ? "row" : "column"}>
           <FoodCard name={"Wrap"} image={wrap}
                     ingredients={["Emmental", "Poulet ou Mozza", "Tomate",
-                      "Concombres", "Cornichons", "Bûche de chêvre",
-                      "Oignons", "Oignons frits", "Sauce au choix",
+                      "Concombres", "Cornichons", "Bûche de chèvre",
+                      "Oignons", "Oignons frits", "Olives", "Sauce au choix",
                       "Salade"]} price={"3.20"}/>
           <FoodCard name={"Croque-Monsieur"} image={croque}
                     ingredients={["Emmental", "Poulet ou Mozza", "Tomate",
@@ -24,21 +26,21 @@ export default function Food(props: any) {
                     ingredients={["Maïs", "Tomate", "Concombres",
                       "Cornichons", "Oignons", "Oignons frits",
                       "Sauce au choix", "Salade"]}
-                    supplements={["Poulet", "Mozza", "Bûche de chêvre"]}
+                    supplements={["Poulet", "Mozza", "Bûche de chèvre"]}
                     price={"3.20"}/>
         </Flex>
         <Center>
-            <h2>Nos sauces</h2>
+          <h2>Nos sauces</h2>
         </Center>
-        <Flex justify={"space-around"} wrap={"wrap"} mx={100} my={"lg"}>
+        <Flex justify={"space-around"} wrap={"wrap"} mx={"auto"} my={"lg"}>
           {["Ketchup", "Mayonnaise", "Moutarde", "Barbecue", "Curry", "Pommes-Frites",
             "Pitta", "3 Poivres", "Algérienne", "Samouraï", "Bleu", "Miami", "Big Burger",
-          "Épices : Herbes de Provence", "Épices : Thym", "Épices : Curry", ].map((sauce) => (
+            "Épices : Herbes de Provence", "Épices : Thym", "Épices : Curry",].map((sauce) => (
               <Card shadow={"xl"} withBorder m={"sm"} radius={"md"}>
                 <Text m={"sm"}>{sauce}</Text>
               </Card>
           ))}
         </Flex>
-      </div>
+      </Flex>
   );
 }

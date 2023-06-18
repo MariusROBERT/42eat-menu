@@ -8,12 +8,10 @@ import Drinks from "./components/Drinks";
 import Snacks from "./components/Snacks";
 
 function App() {
-  const [primaryColor, setPrimaryColor] = React.useState("blue");
-
   return (
       <MantineProvider
           theme={{
-            primaryColor: primaryColor,
+            primaryColor: "blue",
           }}
           withCSSVariables
           withGlobalStyles
