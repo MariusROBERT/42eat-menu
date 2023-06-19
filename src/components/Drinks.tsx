@@ -6,8 +6,8 @@ export default function Drinks(props: any) {
     "Oasis pomme cassis framboise", "Pepsi", "San Pellegrino citron", "San Pellegrino menthe citron",
     "San Pellegrino passion"];
   const specialDrinks = ["Monster 1.80€", "Monster Ultra Paradise 1.80€", "Monster Pipeline Punch 1.80€",
-    "Monster Mango Loco 1.80€", "Eau plate 0.30€", "Eau gazeuse 0.30€", "Pago Fraise 2.00€", "Pago Ananas 2.00€",
-    "Smoothie orange 2.00€"];
+    "Monster Mango Loco 1.80€", "Eau plate 0.30€", "Eau gazeuse 0.30€", "Pago Fraise 1.60€", "Pago Ananas 1.60€",
+    "Smoothie orange mangue passion 2.00€"];
 
   return (
       <Container mih={"90vh"} maw={"80vw"} mx={"auto"}>
