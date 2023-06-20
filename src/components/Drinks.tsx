@@ -6,8 +6,8 @@ export default function Drinks(props: any) {
     "Oasis pomme cassis framboise", "Pepsi", "San Pellegrino citron", "San Pellegrino menthe citron",
     "San Pellegrino passion"];
   const specialDrinks = ["Monster 1.80€", "Monster Ultra Paradise 1.80€", "Monster Pipeline Punch 1.80€",
-    "Monster Mango Loco 1.80€", "Eau plate 0.30€", "Eau gazeuse 0.30€", "Pago Fraise 1.60€", "Pago Ananas 1.60€",
-    "Smoothie orange mangue passion 2.00€"];
+    "Monster Mango Loco 1.80€", "Eau plate 0.50€", "Eau gazeuse 0.50€", "Pago Fraise 1.70€", "Pago Ananas 1.70€",
+    "Smoothie orange mangue passion 2.30€"];
 
   return (
       <Container mih={"90vh"} maw={"80vw"} mx={"auto"}>
@@ -15,7 +15,7 @@ export default function Drinks(props: any) {
           <h1>Boissons</h1>
         </Center>
         <Center>
-          <h2>Cannettes 0.80€</h2>
+          <h2>Cannettes 0.85€</h2>
         </Center>
         <Flex justify={"space-around"} wrap={"wrap"} mx={"auto"} my={"lg"}>
           {drinks.map((drink) => (

@@ -23,12 +23,12 @@ export default function Snacks() {
           <h2>Snacks frais</h2>
         </Center>
         <Flex justify={"space-around"} wrap={"wrap"} mx={"auto"} my={"lg"}>
-          <SnackCard name={"Muffin vanille chocolat"} img={"https://cdn.metro-group.com/fr/fr_pim_881031001001_05.png?w=400&h=400&mode=pad"} price={"1.70"}/>
-          <SnackCard name={"Muffin myrtille"} img={"https://cdn.metro-group.com/fr/fr_pim_881028001001_05.png?w=400&h=400&mode=pad"} price={"1.70"}/>
-          <SnackCard name={"Muffin tout chocolat"} img={"https://cdn.metro-group.com/fr/fr_pim_881026001001_05.png?w=400&h=400&mode=pad"} price={"1.70"}/>
-          <SnackCard name={"Cookie tout chocolat"} img={"https://cdn.metro-group.com/fr/fr_pim_860044001001_01.png?w=400&h=400&mode=pad"} price={"1.10"}/>
-          <SnackCard name={"Cookie chocolat fourré noisettes"} img={"https://cdn.metro-group.com/fr/fr_pim_860042001001_01.png?w=400&h=400&mode=pad"} price={"1.10"}/>
-          <SnackCard name={"Cookie pépites de chocolat"} img={"https://cdn.metro-group.com/fr/fr_pim_399949001001_02.png?w=400&h=400&mode=pad"} price={"1.10"}/>
+          <SnackCard name={"Muffin vanille chocolat"} img={"https://cdn.metro-group.com/fr/fr_pim_881031001001_05.png?w=400&h=400&mode=pad"} price={"2.00"}/>
+          <SnackCard name={"Muffin myrtille"} img={"https://cdn.metro-group.com/fr/fr_pim_881028001001_05.png?w=400&h=400&mode=pad"} price={"2.00"}/>
+          <SnackCard name={"Muffin tout chocolat"} img={"https://cdn.metro-group.com/fr/fr_pim_881026001001_05.png?w=400&h=400&mode=pad"} price={"2.00"}/>
+          <SnackCard name={"Cookie tout chocolat"} img={"https://cdn.metro-group.com/fr/fr_pim_860044001001_01.png?w=400&h=400&mode=pad"} price={"1.25"}/>
+          <SnackCard name={"Cookie chocolat fourré noisettes"} img={"https://cdn.metro-group.com/fr/fr_pim_860042001001_01.png?w=400&h=400&mode=pad"} price={"1.25"}/>
+          <SnackCard name={"Cookie pépites de chocolat"} img={"https://cdn.metro-group.com/fr/fr_pim_399949001001_02.png?w=400&h=400&mode=pad"} price={"1.25"}/>
           <SnackCard name={"Glace cornet chocolat"} img={"https://media.carrefour.fr/medias/e0c50a4aace33bbf8e84c62512de0773/p_1500x1500/07613034975416-a2n1-s82.jpg"} price={"1.00"}/>
           <SnackCard name={"Glace corner vanille"} img={"https://media.carrefour.fr/medias/9ba4b4dc6b603003ae9ca981d7e15c19/p_1500x1500/07613034975386-a2n1-s18.jpg"} price={"1.00"}/>
         </Flex>
