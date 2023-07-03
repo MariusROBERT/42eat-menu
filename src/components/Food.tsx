@@ -18,7 +18,7 @@ export default function Food(props: any) {
                     ingredients={["Emmental", "Poulet ou Mozza", "Tomate",
                       "Concombres", "Cornichons", "Bûche de chèvre",
                       "Oignons", "Oignons frits", "Olives", "Sauce au choix",
-                      "Salade"]} price={"3.20"}/>
+                      "Salade"]} price={"3.50"}/>
           <FoodCard name={"Croque-Monsieur"} image={croque}
                     ingredients={["Emmental", "Poulet ou Mozza", "Tomate",
                       "Oignons", "Sauce au choix"]} price={"1.50"}/>
@@ -27,7 +27,7 @@ export default function Food(props: any) {
                       "Cornichons", "Oignons", "Oignons frits",
                       "Sauce au choix", "Salade"]}
                     supplements={["Poulet", "Mozza", "Bûche de chèvre"]}
-                    price={"3.20"}/>
+                    price={"2.20"}/>
         </Flex>
         <Center>
           <h2>Nos sauces</h2>
